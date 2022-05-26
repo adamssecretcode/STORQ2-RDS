@@ -1,6 +1,7 @@
 #!/bin/bash
 #Nowplaying Script for Harvesters FM to check the last line of the "as played" log.
 # If its a song, update RDS. If its other, shut down.
+#
 
 #first, check in with HealthChecks.io
 curl https://hc-ping.com/800fae54-6d09-4682-b739-e28d076fef86
