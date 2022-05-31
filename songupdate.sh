@@ -152,118 +152,118 @@ elif grep -q "$nowplaying" <<< "spot" || grep -q "$nowplaying" <<< "localspot"; 
         final="Program Name"
 #start of cancon
     elif grep -q "$spot" <<< "7501"; then
-        final="Your Love by Aaron Bucks"
+        final="Your Love by Aaron Bucks (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7502"; then
-        final="A Little Bit of Faith by Alisha Dawn"
+        final="A Little Bit of Faith by Alisha Dawn (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7503"; then
-        final="No One Else by Allen Froese"
+        final="No One Else by Allen Froese (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7504"; then
-        final="Renew My Mind by Allen Froese"
+        final="Renew My Mind by Allen Froese (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7505"; then
-        final="Miracles by BLSNG"
+        final="Miracles by BLSNG (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7506"; then
-        final="Someone Like You by Brant Pethick"
+        final="Someone Like You by Brant Pethick (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7507"; then
-        final="Still by Brooke Nicholls"
+        final="Still by Brooke Nicholls (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7508"; then
-        final="Inside Your Heart by C3 Saskatoon"
+        final="Inside Your Heart by C3 Saskatoon (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7509"; then
-        final="What Can He Do by Chris Bray"
+        final="What Can He Do by Chris Bray (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7510"; then
-        final="Key To My Heart by Corey Lueck"
+        final="Key To My Heart by Corey Lueck (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7511"; then
-        final="We Never Stop by Corey Lueck"
+        final="We Never Stop by Corey Lueck (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7512"; then
-        final="Let That Go by Dan Bremnes"
+        final="Let That Go by Dan Bremnes (Cancon)" 
         song=$final
     elif grep -q "$spot" <<< "7513"; then
-        final="Scars by Dan Bremnes"
+        final="Scars by Dan Bremnes (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7514"; then
-        final="Expectation by Elias Dummer"
+        final="Expectation by Elias Dummer (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7515"; then
-        final="Echoing Holy by Elias Dummer"
+        final="Echoing Holy by Elias Dummer (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7516"; then
-        final="Here Comes The Kingdom by Jake Fretz"
+        final="Here Comes The Kingdom by Jake Fretz (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7517"; then
-        final="I Want Your Heart by Jake Fretz"
+        final="I Want Your Heart by Jake Fretz (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7518"; then
-        final="Fires by Jordan St. Cyr"
+        final="Fires by Jordan St. Cyr (Cancon)" 
         song=$final
     elif grep -q "$spot" <<< "7519"; then
-        final="Weary Traveller by Jordan St. Cyr"
+        final="Weary Traveller by Jordan St. Cyr (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7520"; then
-        final="Moving On by Love & The Outcome"
+        final="Moving On by Love & The Outcome (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7521"; then
-        final="Thank God I'm Alive by Manic Drive"
+        final="Thank God I'm Alive by Manic Drive (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7522"; then
-        final="God of Faithfulness by Movement Worship"
+        final="God of Faithfulness by Movement Worship (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7523"; then
-        final="My Victory by Tehillah Worship"
+        final="My Victory by Tehillah Worship (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7524"; then
-        final="Your Sad Eyes by The 8th Line"
+        final="Your Sad Eyes by The 8th Line (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7525"; then
-        final="After My Heart by The Color"
+        final="After My Heart by The Color (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7526"; then
-        final="Better Way by The Color"
+        final="Better Way by The Color (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7527"; then
-        final="Call of the Wild by The Color"
+        final="Call of the Wild by The Color (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7528"; then
-        final="Fly by The Voyage"
+        final="Fly by The Voyage (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7529"; then
-        final="Mortals by West of Here"
+        final="Mortals by West of Here (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7530"; then
-        final="Jesus Plus Nothing by Corey Lueck"
+        final="Jesus Plus Nothing by Corey Lueck (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7531"; then
-        final="Joyful Noise by Matt Maher"
+        final="Joyful Noise by Matt Maher (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7532"; then
-        final="Bloodlines by Tim & The Gloryboys"
+        final="Bloodlines by Tim & The Gloryboys (Cancon)" 
         song=$final
     elif grep -q "$spot" <<< "7533"; then
-        final="I'm Not Lucky, I'm Blessed by Love & The Outcome"
+        final="I'm Not Lucky, I'm Blessed by Love & The Outcome (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7534"; then
-        final="The Wind & The Waves by Fresh IE"
+        final="The Wind & The Waves by Fresh IE (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7535"; then
-        final="Let The World Sing by Tehillah Worship"
+        final="Let The World Sing by Tehillah Worship (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7536"; then
-        final="All The Glory by Allen Froese"
+        final="All The Glory by Allen Froese (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7537"; then
-        final="Miracle by Brant Pethick"
+        final="Miracle by Brant Pethick (Cancon)"
         song=$final
     elif grep -q "$spot" <<< "7538"; then
-        final="Captain by Hunter Brothers"
+        final="Captain by Hunter Brothers (Cancon)"
         song=$final
     else
         final="Harvesters FM"
@@ -275,7 +275,7 @@ else
 fi
 
 
-#if column 12 says song, then parse the song information. 
+#if column 12 (of our STORQ2 airlog output) says song, then parse the song information. 
 
 # download the log again >> curl -k link
 # parse the last line again >> tail -n 1  
@@ -289,7 +289,7 @@ fi
 
 if [ -z "$song" ]; then
         :
-#if the variable song is empty, do nothing. 
+#if the variable song is empty, do nothing. If its filled, write it to log. 
     else
         if [ "$song" != "$(tail -n 1 today.txt)" ]; then
             echo $song >> "today.txt"
@@ -299,6 +299,15 @@ if [ -z "$song" ]; then
         fi
 fi
 #If we're playing a song, log it. If it's already been logged, skip the step. 
+
+
+#Strip "(Cancon)" from displaying on nowplaying.txt, but keep it for the logs. 
+final=$(echo $final | sed "s/[(]Cancon[)]//g")
+
+
+# This version eliminates everything between parathensis:
+# final=$(echo $final | sed "s/[(][^)]*[)]//g")
+
 
 
 if [ "$final" == "$(cat /mnt/c/RDS/nowplaying.txt)" ]; then
