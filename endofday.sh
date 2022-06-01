@@ -11,4 +11,7 @@ cat today.txt | uniq > logs/$NOW\ songs.txt
 
 echo "" > today.txt
 
+curl https://hc-ping.com/8c09b489-4253-4238-9571-014373578274
+#Check in with Healthchecks.io
+
 exit
