@@ -17,10 +17,17 @@ MONTH=$1
 # $1 is the number of the month passed from launching the script e.g. 05
 
 cat logs/$YEAR$MONTH* > monthtemp.txt
+#Gathers all the logs into a temp file. 
 
-cat monthtemp.txt | sort | uniq -c | sort -n -r >  chart-$YEAR$MONTH.txt
+cat monthtemp.txt | sort | uniq -c | sort -n -r | sed "s/[(]Cancon[)]//g" >  chart-$YEAR$MONTH.txt
+#Creates main chart of all songs
+
+cat monthtemp.txt | sort | uniq -c | sort -n -r | grep "(Cancon)" | sed "s/[(]Cancon[)]//g" >  chart-$YEAR$MONTH-cancon.txt
+#Creates main chart of Cancon only. 
+
 rm monthtemp.txt
+#Delete temp file
 
-echo -n "File has been saved as \"" && echo -n $PWD && echo "/chart-$YEAR$MONTH.txt\""
+echo -n "Files have been saved as \"" && echo -n $PWD && echo "/chart-$YEAR$MONTH.txt\""
 
 exit
