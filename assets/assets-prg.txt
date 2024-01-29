@@ -1,0 +1,55 @@
+-----START OF PROGRAMMING-------
+1445,The Lord's Challenge
+1446,Words to Live By
+4010,Mission Compass
+4021,Friends of Israel
+4023,AnchorPoint
+4024,Back To The Bible Weekend
+4025,Canada's National Bible Hour
+4028,In Touch (Weekend)
+4030,Gaither Homecoming Radio
+4032,Lamplighter Theatre
+4033,Lamplighter Theatre
+4034,Lamplighter Theatre
+4036,La Foi Vivifiante
+4037,Lutheran Hour
+4038,Adventures In Odyssey
+4043,Focus Radio Theatre
+4044,Focus Radio Theatre
+4045,Focus Radio Theatre
+4059,Weekend Magazine
+4060,Weekend Magazine
+4061,Weekend Magazine
+4062,Weekend Magazine
+4209,World Missionary Evangelism
+4938,Spread The Word
+4939,Hope Today
+4940,Hope Today
+4941,Hope Today
+4942,Hope Today"
+4943,Culture at a Crossroads
+5022,Just a Minute
+5046,In Doubt
+5200,Sky's Revival
+6001,Back To The Bible
+6004,Focus On The Family Canada
+6005,Grace To You
+6007,In Touch
+6013,Life Study of the Bible 
+6014,Adventures In Odyssey
+6015,Plugged In
+6016,Thru the Bible
+6017,Turning Point
+6018,Haven Today
+6019,Haven Today Weekend
+6099,Banner of Truth
+6108,Hearts To Believe
+6117,Live In The Light
+6200,Men Alive
+6201,Truth For Life (Weekend)
+6202,Truth For Life
+6256,Let The Bible Speak
+6260,Let The Bible Speak
+6261,Let The Bible Speak Weekend
+6535,Tom Copland 30 Minutes
+6597,Tom Copland Financial Minute

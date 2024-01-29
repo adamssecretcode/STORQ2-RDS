@@ -1,17 +1,19 @@
 #!/bin/bash
 
-#confirm we're in the right directory
-cd /mnt/c/RDS
+######Import configuration details.
+SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
+######Import configuration details.
+source "$SCRIPT_DIR/config.txt"
+
+cd $DIRECTORY
 
 #establish date format/pattern
 NOW=$(date +"%Y%m%d")
 
+cat $DAILYFILE | uniq > logs/$NOW-songs.txt
 
-cat today.txt | uniq > logs/$NOW\ songs.txt
+echo "" > $DAILYFILE
 
-echo "" > today.txt
-
-curl https://hc-ping.com/8c09b489-4253-4238-9571-014373578274
-#Check in with Healthchecks.io
+#curl $HEALTHCHECKSEOD
 
 exit

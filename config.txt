@@ -1,0 +1,24 @@
+################### LOCAL CONFIGURATION #############################################
+#STATION CALL LETTERS (FOR INTERNAL USE ONLY)
+STATION=CIOG
+
+#RDS Text to display when no match is found (Usually station name)
+#Must Be Enclosed in Quotes
+GENERICDISPLAYTEXT="Harvesters FM"
+
+#IP ADDRESS OF STORQ TO BE MONITORED
+IP=192.168.102.32
+
+#WORKING DIRECTORY (without slash)
+DIRECTORY=/home/harvesters/STORQ2-RDS-CIOG
+
+#File to write live Now Playing Data to
+RDSFILE=nowplaying.txt
+
+#File to write daily archive to
+DAILYFILE=today.txt
+
+#HealthChecks.io RDS Link
+HEALTHCHECKSRDS=
+#HealthChecks.io End of Day Link
+HEALTHCHECKSEOD=
