@@ -4,13 +4,13 @@ STATION=CIOG
 
 #RDS Text to display when no match is found (Usually station name)
 #Must Be Enclosed in Quotes
-GENERICDISPLAYTEXT="Harvesters FM"
+GENERICDISPLAYTEXT="WKNY Radio"
 
 #IP ADDRESS OF STORQ TO BE MONITORED
-IP=192.168.102.32
+IP=192.168.1.100
 
 #WORKING DIRECTORY (without slash)
-DIRECTORY=/home/harvesters/STORQ2-RDS-CIOG
+DIRECTORY=~/STORQ2-RDS-WKNY
 
 #File to write live Now Playing Data to
 RDSFILE=nowplaying.txt
@@ -18,7 +18,7 @@ RDSFILE=nowplaying.txt
 #File to write daily archive to
 DAILYFILE=today.txt
 
-#HealthChecks.io RDS Link
+#HealthChecks.io Monitoring RDS Link
 HEALTHCHECKSRDS=
 #HealthChecks.io End of Day Link
 HEALTHCHECKSEOD=
